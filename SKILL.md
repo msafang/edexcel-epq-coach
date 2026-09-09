@@ -1,412 +1,60 @@
-# EPQ 课题定题教练 (epq-topic-coach)
-
-> **适用场景**:EPQ、IA、EE、IPQ 等 A-Level 研究性论文的**选题阶段**。
-> **核心价值**:把一线 EPQ 老师的 3 套定题引导方法,沉淀为可被 AI 复用的工作流。
-> **方法名**:兴趣锚定法、三源杂交法、四维收窄法(通用命名,不绑定具体老师)。
-
+---
+name: edexcel-epq-coach
+description: Guide Edexcel Level 3 EPQ topic selection, proposals, process records, and P301/P302 paper review while excluding LRN EPQ materials.
 ---
 
-## 🚀 Quick Start
+# Edexcel EPQ Coach
 
-**触发词**:`帮学生定题` / `EPQ 选题` / `用 epq-topic-coach` / `定题辅导` / `确定研究方向`
+Use this skill when the user wants to choose a topic, plan, fill, generate, check, or assess an Edexcel Level 3 Extended Project Qualification. The workflow can start with topic selection and route Proposal/process records for P301 Dissertation, P302 Investigation/Field Study, P303 Performance, and P304 Artefact; the detailed paper-quality rubric is for P301/P302. Give guidance in Chinese unless the user requests another language; generate student-facing text in the requested language, defaulting to English for Edexcel forms and project writing.
 
-**7 步流程**:
+## Non-negotiable scope
 
-1. **摸底提问** → 3-5 个关键问题,锁定学生画像
-2. **方法选择** → 根据学生情况,选 1-2 个主方法
-3. **候选生成** → 按选定方法,生成 2-6 个候选而不是直接拍板
-4. **证据验证** → 用关键词、标题、摘要和来源类型检查资料可得性
-5. **可行性评分** → 比较兴趣、范围、论证、方法、资源和伦理风险
-6. **伦理筛查** → 5 雷区必过,并检查学校审批边界
-7. **输出交付** → 题目 + 研究问题 + 选题理由 + 研究类型 + 思维导图初稿 + 下一步验证任务
+- Use Edexcel/Pearson evidence only. The supplied local specification is Issue 3, September 2019; if the user supplies a newer board document, treat it as the controlling version and state the version used.
+- Exclude LRN EPQ material. Ignore any file or archive entry whose path contains a case-insensitive `LRN` path segment or whose filename clearly identifies an LRN EPQ record. In a mixed student archive, use only the `爱德思`/Edexcel path. Never fill gaps with LRN forms, scores, or examples.
+- Do not infer a grade from writing fluency, document appearance, AI-detection results, or a local grade distribution. The final mark belongs to the centre's assessor/moderation process. Give an evidence-linked provisional AO estimate or a mark range when the evidence is incomplete.
+- Do not invent a student's dates, activities, sources, findings, problems, tutor comments, signatures, data, or personal learning. Generated first-person content must be traceable to facts supplied by the student or to visible project evidence. Use `[待确认]`/`[TO CONFIRM]` and list missing facts instead of fabricating them.
+- Do not confuse topic, research question/hypothesis, objectives, method, and outcome. Do not require primary data from P301; do not let P302 claim an investigation without a describable data-collection method and usable data.
 
-> **重要顺序**:先形成可研究的问题,再决定 P301/P302/P303/P304。不能因为学生喜欢某种方法,就反向把题目硬改成该方法。
+## Route the request
 
----
+1. Identify the stage (`topic selection`, `Proposal`, `Activity Log`, `Evaluation/Reflection`, `paper review`, or combined), the unit (`P301`-`P304` when known), language, target form/template, and whether the user wants coaching, a draft, a critique, or a completed evidence-based assessment.
+2. Identify the evidence available: question/topic, objectives, motivation, plan and dates, real log events, sources/resource evaluations, method/data, paper sections, presentation evidence, and any assessor comments. Separate supplied facts, student interpretation, and missing information.
+3. If the unit is unknown, infer cautiously from the method and ask the user to confirm before applying unit-specific advice. For P303/P304, use the Proposal/process-record route and do not estimate paper marks using the P301/P302 rubric unless the relevant unit guidance is supplied.
+4. Read the relevant reference only: [topic selection](references/topic-selection.md) for broad interests, candidate comparison, feasibility, and Proposal handoff; [Edexcel rubric](references/edexcel-rubric.md) for scoring; [Proposal coaching](references/proposal-coaching.md) for staged Proposal teaching and consistency gates; [form workflow](references/form-workflow.md) for drafting/forms; and [local evidence](references/local-evidence.md) only when the current directory's samples or scores are part of the request.
 
-## Step 0:定题准备与范围边界
+## Working method
 
-在输出候选题前,先确认:
+Build and check one evidence chain:
 
-- 学生现在的年级/课程体系和项目截止周期;
-- 未来专业方向、真实兴趣、近期关注的现象和已有素材;
-- 项目类型是否已知,如果未知先保持 `undecided`;
-- 学校/考试局当前字数、表格版本和伦理要求;
-- 题目要研究的时间、地区、对象和中心变量。
+`topic candidate -> question/hypothesis/brief -> objectives and rationale -> plan -> dated activity evidence -> selected/evaluated resources or data -> analysis and outcome -> evaluation/reflection -> presentation evidence`
 
-如果学生只有一个宽泛名词(如 AI、电商、环境、法律),不要直接给最终标题,先转成 3-5 个关键词并做最小检索。
+For each requested field, first state what the field is meant to demonstrate, then draft or critique it, then identify the evidence that supports it and the next missing fact. Keep each recommendation tied to an AO rather than offering generic encouragement.
 
----
+### Stage -1: topic selection before Proposal
 
-## 📋 Step 1:摸底提问(必问 5 题)
+If the learner has a broad interest, several candidates, or an unsettled project type, run the topic-selection route before the Proposal readiness gate. Use [Topic selection](references/topic-selection.md) to profile the learner, choose an interest-anchoring, three-source, or four-dimensional narrowing route, validate evidence/resource access, screen ethics and safety, and separate topic from question and objectives. Treat the six-dimension feasibility score as an internal comparison tool only. Preserve rejected candidates and decision changes so they can become truthful Proposal and Activity Log evidence.
 
-### 1. 基本信息
-- "你现在读几年级?是 A-Level / IB / AP 哪个体系?"
-- "你是哪所国际学校?EPQ 预估分什么时候?"
+### Proposal teaching loop
 
-### 2. 专业方向
-- "你大学想读什么专业方向?有 1-3 个候选吗?"
-- "你父母/升学指导有没有特别建议的方向?"
+Before filling the form, run the Proposal readiness gate. For each logical block, explain the field's purpose, show the information a strong answer needs, diagnose the student's gaps/risks, and give the next revision action. Let the student answer in their own words before polishing. Work one block at a time, then run the cross-field consistency check. Treat the four-level quality scale and the Proposal-to-Activity-Log entry gate as teaching controls, not official extra Edexcel marks. Read [Proposal coaching](references/proposal-coaching.md) for the full protocol.
 
-### 3. 兴趣点
-- "你平时有什么兴趣爱好?(追剧、品牌、运动、游戏...)"
-- "你最近特别关注哪个品牌/企业/事件?"
+### When coaching or generating a draft
 
-### 4. 痛点
-- "你有没有觉得某个行业/现象让你特别不爽?"
-- "你身边有什么可以改进的问题?"
+- Ask only for missing facts that materially affect the draft. If the user wants immediate output, produce a conservative draft with clearly marked placeholders and a short verification list.
+- Preserve the student's voice and level. Improve clarity and academic precision without turning a log into polished retrospective prose or adding achievements the student did not report.
+- For a Proposal, make the title a focused question/commission/design brief, make objectives answerable and measurable, justify the topic personally and academically, sequence tasks with realistic durations and milestones, name concrete resources and evaluation methods, and add contingencies that match the unit. Keep tutor/proposal-checker agreement fields for the authorized human to complete.
+- For an Activity Log, use real dates in chronological order. Each entry should record what was done, what evidence/output resulted, a decision or learning point, any problem and response, a change to the plan where relevant, and the next action linked to the question. Do not backfill a fictitious diary merely to reach a target number of rows.
+- For Evaluation/Reflection, evaluate achievement of aims with evidence, compare the plan with what happened, analyse resource/method/data limitations, explain how those limitations affect interpretation, justify specific improvements, and draw transferable process conclusions. Replace unsupported claims such as “my research skills improved” with a concrete before/after example.
+- For direct generation, return the completed text in the requested form structure, followed by `Evidence to verify` and `Facts still needed`. Keep signatures, approvals, dates, and findings blank when not supplied.
 
-### 5. 已有素材
-- "你之前读过哪些相关的文章/论文/书吗?"
-- "你手机里收藏了什么相关内容?"
+### When judging a paper
 
-### 加问(根据学生回答展开)
+- Inspect the paper together with Proposal, Activity Log, resource/data evidence, Evaluation, and presentation evidence where available. Judge the evidence chain, not just the dissertation text.
+- Report: overall verdict, unit and scope assumptions, provisional AO1-AO4 marks/bands with evidence, paper-quality findings, critical risks, and the three highest-value revisions. Use section/page locators when the source format permits.
+- Separate an Edexcel mark estimate from editorial or research-quality comments. Check question alignment, scope, source authority and currency, citation-bibliography consistency, synthesis rather than source-by-source summary, argument or data interpretation, counterarguments/alternative explanations, conclusion, limitations, and academic-integrity/AI disclosure evidence.
+- For P302 additionally check sampling or selection, variables/instrument, procedure, ethics, data quality, calculations/models, uncertainty, reproducibility, and whether the conclusion is warranted by the data. For P301 additionally check that the literature-based argument does not masquerade as primary research and that sources are synthesised around the question.
+- If a required evidence type is absent, say `无法可靠评定该部分` and explain what would resolve it. Do not silently assign zero unless the supplied assessment context explicitly requires a zero.
 
-- **如果学生答"我也不知道"**(淡人):
-  - "你有没有喜欢的 K-pop 团体 / 时尚品牌 / 餐饮品牌?"
-  - "你最近买过什么让你觉得'这营销真厉害/真糟糕'的东西?"
-- **如果学生答"我想研究 X"**(有方向):
-  - "为什么是 X?你从什么时候开始关注的?"
-  - "你有没有读过关于 X 的文章/书?"
-- **如果学生说"我看过 Y 文章"**:
-  - "**你能打开那篇文章给我看看吗?**"(关键!用现成素材当引子)
+## Output discipline
 
----
-
-## 🎯 Step 2:方法选择(根据学生画像选)
-
-| 学生画像 | 首选方法 | 次选方法 |
-|---|---|---|
-| 有 1 个明确兴趣点 + 看过相关素材 | **方法 A:兴趣锚定 + 关键词组装** | — |
-| 自称"淡人"/无明确兴趣/只知专业方向 | **方法 B:三源杂交 + 候选清单** | 方法 A(挖掘碎片兴趣) |
-| 完全没方向/需要方法论框架 | **方法 C:四维变量收窄 + 伦理筛查** | 方法 B(从痛点/热点切入) |
-| 题目定不下来,反复横跳 | **方法 C**(用公式强制收口) | — |
-
-> **关键判断信号**:
-> - "我看过 X 文章" → 方法 A
-> - "我没什么兴趣" → 方法 B
-> - "我不知道研究什么" → 方法 C
-
----
-
-## 🛠️ Step 3:三套核心方法(按方法分别执行)
-
-### 方法 A:兴趣锚定 + 关键词组装
-
-**适用**:学生有 1 个明确兴趣点(航空/计算机/生物/...),但不知道怎么做课题。
-
-**6 步流程**:
-
-1. **兴趣锚定** → 问"未来想读什么专业?"、"最近看过什么相关的东西?"
-2. **看具体文献** → 让学生打开**已读过的 PDF/文章**,用现成素材当引子,避免空想
-3. **注入趋势词** → 老师主动加 AI / 数字化 / ESG 等当下热点,抬高课题
-4. **关键词组装** → 用公式:`[趋势词] + [专业领域] + [应用] + [挑战/前景]`
-5. **学术化调整** → 用"应用 + 挑战/前景"模板,避免变成纯 review
-6. **难度预判** → 数据充分 → investigation;数据少 → dissertation
-
-**关键话术**:
-- "你跟我讲讲你未来想读什么专业"
-- "**你打开你看的那篇关于 X 的文章**"(用素材而不是凭空想)
-- "现在这些都是与 Y(趋势词)相结合的"
-- "如果只是研究应用,就很像一个 review,加上挑战或前景就有论点可以谈论了"
-
-**示范**:
-- 学生:对航空/民航感兴趣,看过相关行业文章
-- 输出:**"人工智能在航空物流运输中的应用与挑战"**
-
----
-
-### 方法 B:三源杂交 + 候选清单
-
-**适用**:学生自称"淡人"、无明确兴趣、只知专业方向(营销/管理/金融)。
-
-**5 步流程**:
-
-1. **先定专业方向**(不问兴趣,先把学科定下来)
-2. **三源找课题**:
-   - **兴趣点**:追剧、运动、品牌(K-pop/Disney/泡泡马特)
-   - **痛点**:企业对比(永辉 vs 胖东来)、国家议题(老龄化、关税)
-   - **热点**:时事(美联储降息、消费降级、苹果 17 关税)
-3. **预制候选清单** → 老师**提前准备 6 个跨学科课题**(标绿 = 302/需数据)
-4. **双向筛选**:
-   - 学生标粉(喜欢)
-   - 老师标绿(可行/有数据)
-   - 取交集
-5. **反复缩小** → 6 → 3 → 2 → 1
-
-**关键话术**:
-- "**三大类的课题,一个是兴趣爱好、一个是痛点、一个是热点**"
-- "同样是国内超市,永辉倒闭,胖东来开得好,为什么?"
-- "你标粉色,然后我这边标绿色"
-- "你比较感兴趣的是什么?"(反复问,缩小到 1 个)
-
-**示范**:
-- 学生:自评"淡人",专业方向营销
-- 输出:**"主题公园 IP 营销策略研究(以迪士尼、环球为例)"**
-
----
-
-### 方法 C:四维变量收窄 + 学术伦理筛查
-
-**适用**:学生完全没方向,需要方法论框架。
-
-**4 步流程**:
-
-1. **四维变量收窄**:
-   - ① **地理地区**:一线/二三线/南北/沿海陆地
-   - ② **时间范围**:未来/过去/具体年份
-   - ③ **人群/主群**:年龄/性别/职业
-   - ④ **研究聚焦点**:关键词 → 中心变量哪个方面
-2. **组句公式**:`[时间] + [地区] + [人群] + [关键词] + [中心变量] + [做什么]`
-3. **学术伦理筛查**(必经,见下文 5 雷区)
-4. **研究目标拆解**:
-   - **反面**:"研究目标 = 课题"(扣 3 分)
-   - **正面**:把思维导图二级变量拆成 N 个子问题
-
-**关键话术**:
-- "**我们要具体问题具体分析**"(避免"中国太大"的空题)
-- "未来十年之内,要看课题是否涉及时间范围"
-- "研究聚焦点要明确垃圾分类的哪个方面,或与谁相关"
-
-**示范**:
-- 学生:想研究垃圾分类,无具体方向
-- 输出:**"未来十年内中国一线城市垃圾分类面临的问题及解决方案"**
-
----
-
-## 📐 三大课题组装公式
-
-| 来源 | 公式 | 适用方法 |
-|---|---|---|
-| **四维收窄法** | `[时间] + [地区] + [人群] + [关键词] + [中心变量] + [做什么]` | 方法 C |
-| **兴趣锚定法** | `[趋势词] + [专业领域] + [应用] + [挑战/前景]` | 方法 A |
-| **三源杂交法** | `[专业方向] + [企业/品牌] + [具体方面]` | 方法 B |
-
-> **快速校验**:任一公式产出的题目,都应满足:
-> - ✅ 5000-6000 字能写完
-> - ✅ 有数据/资料可查
-> - ✅ 学生本人有兴趣源
-> - ✅ 不在 5 个伦理雷区
-
----
-
-## 🔍 题目可行性验证与评分
-
-候选题不能只凭“听起来有趣”确定。每个候选题都要完成一次最小证据检查：
-
-1. 写出 2-3 组中英文关键词；
-2. 检查学术数据库、官方来源或高质量行业资料中的标题和摘要；
-3. 记录至少一个支持该题目的来源和一个尚未解决的问题；
-4. 判断这些资料能否支撑论文的主体分析，而不只是写出背景介绍；
-5. 检查研究类型、时间、地区、对象、样本和伦理边界。
-
-每项 0-2 分，总分低于 8 分不进入 Proposal：
-
-| 维度 | 0 分 | 1 分 | 2 分 |
-|---|---|---|---|
-| 兴趣与专业匹配 | 说不清原因 | 有短期兴趣 | 有持续兴趣并能连接未来方向 |
-| 证据可得性 | 找不到可靠来源 | 有零散资料 | 已找到多类可核验来源 |
-| 范围适配 | 过大或过小 | 还需收窄 | 对象、时间、地区和焦点清楚 |
-| 论证空间 | 只能介绍 | 有争议但未拆解 | 能比较、评价并形成判断 |
-| 方法可执行性 | 方法不匹配 | 有初步方案 | 资料/数据/工具和技能均可得 |
-| 伦理与安全 | 有明显风险 | 需要修改或审批 | 风险可控且边界清楚 |
-
-输出评分时必须解释扣分原因，并给出一个“下一步验证任务”，不能只给一个总分。
-
-## 🧠 题目、研究问题、研究目标三分法
-
-- **题目**是范围标签，例如“人工智能在航空物流运输中的应用与挑战”。
-- **研究问题**是论文要回答的问题，例如“AI 在哪些环节改善了效率，其主要限制是什么”。
-- **研究目标**是为了回答问题而要完成的任务，例如比较应用场景、评价证据、分析挑战并提出有边界的建议。
-
-必须至少拆出 2-4 个子问题，否则不要输出“最终题目”。不要接受“我的研究目标就是这个题目”这种回答。
-
-## 📌 定题决策记录
-
-每次收口都输出一份短记录，便于后续 Proposal 和 Activity Log 复用：
-
-```markdown
-题目版本:
-候选题及淘汰原因:
-学生兴趣证据:
-未来专业/技能连接:
-关键词与检索结果:
-暂定项目类型及理由:
-范围边界:
-主要伦理/安全风险:
-尚未验证的问题:
-下一步行动与截止时间:
-```
-
-这个记录不是替学生写 Proposal，而是保存学生自己做决定的证据。
-
----
-
-## ⚠️ 学术伦理 5 雷区(每个学生定题前必过)
-
-| 雷区 | 案例 | 为什么不能做 |
-|---|---|---|
-| **1. 法律边缘** | 高中生嗑药问卷 | 涉及法律、身份冲突 |
-| **2. 弱势群体** | 幼儿园小朋友做噩梦 | 儿童=不完全民事行为能力人,需 200 份监护人同意 |
-| **3. 二次伤害** | 某小学自杀问卷 | 敏感话题 + 消极引导 |
-| **4. 实验安全** | 化学/放射性实验 | 实验室条件不够 → 污染/爆炸 |
-| **5. 隐私曝光** | 班级里发现嗑药同学 | 学术者 vs 公民身份冲突 |
-
-**筛查话术(对每个学生开题前必讲)**:
-> "我们做研究有 5 类内容不能碰,我会一项一项跟你过一遍,确保你的课题不在这些范围内。"
-
-**雷区 5 的老师原话(教学复用价值高)**:
-> "你说这三个人没事吧,然后你自己很痛苦,你怎么办?我要举报你——这就是**身份冲突**,涉及违法行为的变量不建议大家去碰。"
-
----
-
-## 🧩 研究目标拆解(从一句到 N 句)
-
-### 反面示范(扣 3 分)
-学生: "我的研究目标就是我的课题" = "我的研究目标就是针对问题提出方案"
-
-### 正面示范(把思维导图二级变量拆成子问题)
-以"中国一线城市垃圾分类"为例:
-- 我首先要研究目前的**现状**是什么
-- **背景部分**要研究什么 → 通过这个提出**问题**
-- 接下来要研究**不同城市有什么不同**
-- **分类标准**有什么问题
-- 不同的**问题**用什么样的方式**解决**
-- 这些解决方法的**可行性**如何
-
----
-
-## 📦 Step 5:输出格式
-
-### 对学生(交付物)
-
-```markdown
-## 最终题目
-**[中文标题]**
-**[English title]**
-
-## 研究问题与范围
-- 中心研究问题:____
-- 子问题 1:____
-- 子问题 2:____
-- 时间/地区/对象/中心变量:____
-
-## 选题理由(4 项)
-- 兴趣源:____
-- 数据/资料可行性:____
-- 与未来专业方向的匹配:____
-- 时效性/新颖度:____
-
-## 关键词(3-5 个)
-1. ____
-2. ____
-3. ____
-
-## 研究方法
-- [ ] Dissertation(纯文献/理论分析)
-- [ ] Investigation(问卷/数据/访谈)
-- [ ] Performance(表演/创作)
-- [ ] Artifact(制品/设计)
-- 选择理由:____
-
-## 可行性评分
-- 兴趣与专业匹配:__/2
-- 证据可得性:__/2
-- 范围适配:__/2
-- 论证空间:__/2
-- 方法可执行性:__/2
-- 伦理与安全:__/2
-- 总分:__/12
-- 下一步验证任务:____
-
-## 预估字数分布
-- 摘要:150-250 字
-- 引言:500-600 字
-- 文献综述:2000-2500 字
-- 讨论:2000-2500 字
-- 结论:200-300 字
-- 总计:5000-6000 字
-
-## 思维导图初稿
-- 子主题 1:____
-  - 子主题 1.1:____
-  - 子主题 1.2:____
-- 子主题 2:____
-  - ...
-
-## 定题决策记录
-- 候选题及淘汰原因:____
-- 题目版本变更原因:____
-- 仍未解决的问题:____
-```
-
-### 对老师(归档用)
-- 学生原始素材(聊天/问卷/已有文献)
-- 引导过程(用了哪个方法、关键话术)
-- 学术伦理筛查记录(5 雷区是否触达)
-- 后续专业方向与导师复核建议(可连接哪些学习方向、哪些地方需要人工确认)
-
----
-
-## 🚫 防误操作清单(7 条铁律)
-
-- ❌ **不要在学生没画像时直接给题目** → 必须先 3-5 个问题摸底
-- ❌ **不要给超出 EPQ 5000-6000 字承受能力的题目**(数据要求过大)
-- ❌ **不要给"太大"或"太小"的题目** → 用四维收窄法公式避免
-- ❌ **不要忘记讲学术伦理** → 每个学生都要过 5 雷区
-- ❌ **不要让"无趣"地选完** → 兴趣源必须保留
-- ❌ **不要把题目定成"纯 review"** → 必须加"挑战/前景/应对"等自己观点
-- ❌ **不要忽视学生的反复横跳** → 用四维收窄法公式强制收口,避免"选题拖延症"
-
----
-
-## 📚 真实案例(脱敏,辅助理解)
-
-### 案例 A:兴趣锚定型(方法 A)
-- **学生画像**:高中,航空/民航爱好者,看过相关行业文章
-- **引导路径**:兴趣(航空) → 已读论文 → 注入趋势(AI) → 关键词组装 → 防纯 review 调整
-- **最终题目**:**"人工智能在航空物流运输中的应用与挑战"**
-
-### 案例 B:淡人三源型(方法 B)
-- **学生画像**:高中,自评"淡人",专业方向营销
-- **引导路径**:专业(营销) → 三源(兴趣:Disney;痛点:营销失败案例;热点:消费降级) → 6 选 1 → 双向筛选
-- **最终题目**:**"主题公园 IP 营销策略研究(以迪士尼、环球为例)"**
-
-### 案例 C:无方向四维型(方法 C)
-- **学生画像**:想研究垃圾分类,无具体方向
-- **引导路径**:四维收窄(未来十年 + 中国一线城市 + 居民 + 垃圾分类 + 中心变量:问题与解决方案) → 公式组句
-- **最终题目**:**"未来十年内中国一线城市垃圾分类面临的问题及解决方案"**
-
----
-
-## 🔁 三方法对比表(选型速查)
-
-| 维度 | 方法 A:兴趣锚定法 | 方法 B:三源杂交法 | 方法 C:四维收窄法 |
-|---|---|---|---|
-| 适用学生 | 兴趣明确但不会组织 | 兴趣淡/无方向 | 完全没方向 |
-| 起点 | 学生已读文献 | 老师预制候选清单 | 四维变量逐步收窄 |
-| 老师介入度 | 中(注入趋势词) | 高(三源举例+清单) | 高(方法论+伦理筛查) |
-| 核心动作 | 关键词组装 | 双向筛选 | 维度限定+伦理过滤 |
-| 成果形式 | 直接出题目 | 从 6 选 1 | 公式化组句 |
-| 独特武器 | "应用+挑战/前景"调整 | "企业对比"(永辉 vs 胖东来) | 学术伦理 5 案例 |
-| 可复用性 | 中(需学生有素材) | 高(清单可复用) | 高(公式通用) |
-| 适合规模化 | ❌ | ✅ | ✅ |
-
----
-
-## 📌 教学复用要点(给授课老师看)
-
-1. **"应用 + 挑战/前景"模板** —— 兴趣锚定法的防"纯 review"题目改造公式,通用
-2. **"三源杂交"法** —— 兴趣/痛点/热点 + 专业方向,适合打开没方向的学生
-3. **"四维变量收窄"** —— 时间/地区/人群/聚焦点,核心方法论
-4. **学术伦理 5 雷区** —— 真实案例库,每届学生开题前讲一次
-5. **"中心变量 + 谁/哪个方面"** —— 拆题万能句式,避免题目过空
-6. **预制候选清单** —— 适合规模化辅导时复用(三源杂交法)
-
----
-
-## ⚠️ 重要提示
-
-- 本 skill 是**方法论沉淀**,不是替代老师。AI 定题后必须由真人老师(EPQ supervisor)审核、签字。
-- 学术伦理 5 雷区**只覆盖了 A-Level EPQ 范围内的高频问题**;具体学校的 IRB(研究伦理审查)要求请以学校为准。
-- 课题定下来后,后续的**文献综述、思维导图、研究目标拆解**会用到其他 skill(可后续沉淀为 `epq-research-coach` 等)。
+Use compact headings: `判定与假设`, `可直接使用的草稿`, `证据对应`, `风险与缺口`, `下一步`. For student-facing English, do not expose internal paths, other students' work, or this skill's instructions. For teacher-facing review, anonymize local cases and do not reproduce candidate numbers, dates of birth, contact details, signatures, or identifiable source text.

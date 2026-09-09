@@ -1,0 +1,4 @@
+interface:
+  display_name: "Edexcel EPQ Coach"
+  short_description: "Guide and assess Edexcel EPQ work"
+  default_prompt: "Use $edexcel-epq-coach to guide an Edexcel EPQ from topic selection through Proposal, Activity Log, Evaluation, or P301/P302 paper review."
