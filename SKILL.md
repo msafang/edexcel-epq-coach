@@ -38,7 +38,7 @@ If the learner has a broad interest, several candidates, or an unsettled project
 
 Before filling the form, run the Proposal readiness gate. For each logical block, explain the field's purpose, show the information a strong answer needs, diagnose the student's gaps/risks, and give the next revision action. Let the student answer in their own words before polishing. Work one block at a time, then run the cross-field consistency check. Treat the four-level quality scale and the Proposal-to-Activity-Log entry gate as teaching controls, not official extra Edexcel marks. Read [Proposal coaching](references/proposal-coaching.md) for the full protocol.
 
-For Proposal Section 1 / Project Objectives, read [Proposal Section 1](references/proposal-section1.md). Treat the text as a plan made at the beginning of the project: retain necessary subject terminology, simplify unnecessary dissertation-style meta-language, keep the conclusion open, and do not reverse-engineer the objectives from findings that have not yet happened.
+For Proposal Section 1 / Project Objectives, read [Proposal Section 1](references/proposal-section1.md). Treat the text as a plan made at the beginning of the project: retain necessary subject terminology, simplify unnecessary dissertation-style meta-language, keep the conclusion open, and do not reverse-engineer the objectives from findings that have not yet happened. When the form includes `What is the question you want to answer?`, `What do you want to find out?`, and `What do you want to learn how to do?`, require an explicit answer to each prompt rather than relying on the assessor to infer coverage from a list of objectives.
 
 ### When coaching or generating a draft
 

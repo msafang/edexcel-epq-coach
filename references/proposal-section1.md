@@ -17,6 +17,18 @@ Keep the sequence aligned with the project:
 
 This is a planning sequence, not a required number of bullets or an official mark formula. A short, coherent set is better than a long list of overlapping objectives.
 
+## Three-prompt coverage gate
+
+When the Proposal template presents these prompts, answer each one explicitly:
+
+1. **What is the question you want to answer?** State one central research question, hypothesis, commission, or design brief. Do not make the assessor infer it from a later objective.
+2. **What do you want to find out?** Explain the main issue, concepts, cases, data, interpretations, or production choices the student plans to explore, and how the evidence or development work will lead to an outcome.
+3. **What do you want to learn how to do?** Name the research, technical, creative, or communication skills the student intends to practise, such as source evaluation, comparing arguments, using evidence, referencing, analysis, making, testing, or presentation.
+
+If the form provides one text box, use three labelled paragraphs or clear opening sentences in this order. A list of objectives may support the answers, but it does not replace them. The question should remain singular and central; `find out` should describe content and investigation; `learn how to do` should describe skills rather than repeat the topic.
+
+Run this gate before calling Section 1 complete. If one prompt is missing, ask for the missing student decision or mark it `[TO CONFIRM]`; do not infer a personal skill goal or a final research question from polished wording alone.
+
 ## Proposal-stage voice and technical level
 
 Calibrate language to the student's supplied writing and understanding:
@@ -69,11 +81,12 @@ Do not fill the brackets with invented facts. Remove any line that does not serv
 Before presenting Section 1 as final, check:
 
 1. Every objective contributes to the title/question/brief and is not just a repeat of the topic.
-2. The objectives describe intentions and a research path, not a retrospective summary of the final paper.
-3. The final judgement remains open and is supported by a realistic method and evidence route.
-4. Technical terms are necessary, limited enough for the scope, and explainable by the student.
-5. The wording sounds like this student at the beginning of the project, while remaining precise enough for Level 3 work.
-6. The objectives can later generate truthful Activity Log entries about source choices, changes, problems, findings, and skill development.
+2. The three form prompts are each answered explicitly and in a traceable order when they are present.
+3. The objectives describe intentions and a research path, not a retrospective summary of the final paper.
+4. The final judgement remains open and is supported by a realistic method and evidence route.
+5. Technical terms are necessary, limited enough for the scope, and explainable by the student.
+6. The wording sounds like this student at the beginning of the project, while remaining precise enough for Level 3 work.
+7. The objectives can later generate truthful Activity Log entries about source choices, changes, problems, findings, and skill development.
 
 If the original text is over-academic, return both the revised student-facing version and a short explanation of what was simplified and what technical content was deliberately retained. Do not describe the student as weak or make unsupported claims about authorship or AI use.
 

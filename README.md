@@ -54,6 +54,16 @@ Evaluation / Reflection
 
 六维可行性评分只是内部比较工具，不是 Edexcel 官方分数，也不能换算成保证的等级。
 
+### Proposal Section 1 的三个提示语
+
+如果表格出现以下提示，skill 会要求逐项明确回答，而不是让考官从一组 objectives 中自行推断：
+
+- What is the question you want to answer?
+- What do you want to find out?
+- What do you want to learn how to do?
+
+即使表格只有一个文本框，也会按这三个问题组织为清晰的段落；缺少学生事实时会标记为待确认。
+
 ### Proposal、Activity Log 与 Evaluation
 
 skill 会根据真实学生信息引导或生成：

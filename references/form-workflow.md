@@ -38,7 +38,7 @@ Avoid titles that are only a broad theme, contain several unrelated questions, o
 
 ### Objectives
 
-Write objectives that cover the intended answer and the intended learning. Read [Proposal Section 1](proposal-section1.md) when the student-facing wording sounds too much like a completed dissertation. A strong set normally states: the question/hypothesis; the main concepts or cases/data; the method; the intended analysis; the outcome; and one or two skills the student will practise. Keep `what I will find out`, `how I will investigate it`, and `what I will produce` distinct. Preserve necessary subject terms, but use clear plan-stage verbs and do not predetermine the final conclusion.
+Write objectives that cover the intended answer and the intended learning. Read [Proposal Section 1](proposal-section1.md) when the student-facing wording sounds too much like a completed dissertation. If the template asks `What is the question you want to answer?`, `What do you want to find out?`, and `What do you want to learn how to do?`, structure the output so all three are explicit, even when the form uses one text box. A strong set normally states: the question/hypothesis; the main concepts or cases/data; the method; the intended analysis; the outcome; and one or two skills the student will practise. Keep `what I will find out`, `how I will investigate it`, and `what I will produce` distinct. Preserve necessary subject terms, but use clear plan-stage verbs and do not predetermine the final conclusion.
 
 ### Reasons for choosing the project
 
