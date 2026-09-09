@@ -1,5 +1,13 @@
 # Changelog
 
+## v5.1 (2026-09-10)
+
+- 增加 Proposal Section 1 / Project Objectives 专门指导。
+- 明确区分项目开始阶段的计划性表达与论文完成后的总结性表达。
+- 保留必要专业术语，同时降低不必要的 dissertation-style meta-language。
+- 防止把最终结论、未完成的来源、案例、数据或发现倒写进 Proposal。
+- 将 objectives 与后续 Activity Log 的真实研究发展建立衔接。
+
 ## v5 (2026-09-10)
 
 - 将仓库从定题阶段扩展为完整的 Edexcel EPQ Coach。

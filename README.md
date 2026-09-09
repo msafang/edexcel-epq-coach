@@ -104,6 +104,7 @@ git clone https://github.com/msafang/edexcel-epq-coach.git
 
 - `SKILL.md`：主工作流与边界
 - `references/topic-selection.md`：定题、候选验证、可行性和 Proposal 衔接
+- `references/proposal-section1.md`：Proposal Section 1 / Project Objectives 的学生语言与计划阶段规则
 - `references/proposal-coaching.md`：Proposal 分阶段教学与一致性检查
 - `references/form-workflow.md`：表格填写与直接生成流程
 - `references/edexcel-rubric.md`：P301/P302 AO 评估要点

@@ -49,7 +49,7 @@ Keep learner, project type, title, dates, and tutor fields consistent with the p
 
 ### B. Title, question, and objectives
 
-The title should be a focused question, hypothesis, commission, or design brief that can be answered or realised within the available scope. Objectives should identify the object, central issue, boundary, intended comparison/evaluation/interpretation, method, and outcome. They may be broken into two to four answerable subquestions when that improves control of the work, but this is a planning recommendation, not an Edexcel quota.
+The title should be a focused question, hypothesis, commission, or design brief that can be answered or realised within the available scope. For Proposal Section 1 / Project Objectives, also read [Proposal Section 1](proposal-section1.md): write a clear Level 3 student plan, retain necessary subject terminology, reduce unnecessary dissertation-style meta-language, and keep the eventual judgement open. Objectives should identify the object, central issue, boundary, intended comparison/evaluation/interpretation, method, and outcome. They may be broken into two to four answerable subquestions when that improves control of the work, but this is a planning recommendation, not an Edexcel quota.
 
 Reject objectives that merely repeat the topic, promise several unrelated industries/periods/populations, or imply causal certainty from descriptive evidence. Keep the topic, research question/hypothesis, method, and outcome as separate fields.
 

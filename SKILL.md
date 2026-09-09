@@ -20,7 +20,7 @@ Use this skill when the user wants to choose a topic, plan, fill, generate, chec
 1. Identify the stage (`topic selection`, `Proposal`, `Activity Log`, `Evaluation/Reflection`, `paper review`, or combined), the unit (`P301`-`P304` when known), language, target form/template, and whether the user wants coaching, a draft, a critique, or a completed evidence-based assessment.
 2. Identify the evidence available: question/topic, objectives, motivation, plan and dates, real log events, sources/resource evaluations, method/data, paper sections, presentation evidence, and any assessor comments. Separate supplied facts, student interpretation, and missing information.
 3. If the unit is unknown, infer cautiously from the method and ask the user to confirm before applying unit-specific advice. For P303/P304, use the Proposal/process-record route and do not estimate paper marks using the P301/P302 rubric unless the relevant unit guidance is supplied.
-4. Read the relevant reference only: [topic selection](references/topic-selection.md) for broad interests, candidate comparison, feasibility, and Proposal handoff; [Edexcel rubric](references/edexcel-rubric.md) for scoring; [Proposal coaching](references/proposal-coaching.md) for staged Proposal teaching and consistency gates; [form workflow](references/form-workflow.md) for drafting/forms; and [local evidence](references/local-evidence.md) only when the current directory's samples or scores are part of the request.
+4. Read the relevant reference only: [topic selection](references/topic-selection.md) for broad interests, candidate comparison, feasibility, and Proposal handoff; [Proposal Section 1](references/proposal-section1.md) for student-authentic Project Objectives; [Edexcel rubric](references/edexcel-rubric.md) for scoring; [Proposal coaching](references/proposal-coaching.md) for staged Proposal teaching and consistency gates; [form workflow](references/form-workflow.md) for drafting/forms; and [local evidence](references/local-evidence.md) only when the current directory's samples or scores are part of the request.
 
 ## Working method
 
@@ -37,6 +37,8 @@ If the learner has a broad interest, several candidates, or an unsettled project
 ### Proposal teaching loop
 
 Before filling the form, run the Proposal readiness gate. For each logical block, explain the field's purpose, show the information a strong answer needs, diagnose the student's gaps/risks, and give the next revision action. Let the student answer in their own words before polishing. Work one block at a time, then run the cross-field consistency check. Treat the four-level quality scale and the Proposal-to-Activity-Log entry gate as teaching controls, not official extra Edexcel marks. Read [Proposal coaching](references/proposal-coaching.md) for the full protocol.
+
+For Proposal Section 1 / Project Objectives, read [Proposal Section 1](references/proposal-section1.md). Treat the text as a plan made at the beginning of the project: retain necessary subject terminology, simplify unnecessary dissertation-style meta-language, keep the conclusion open, and do not reverse-engineer the objectives from findings that have not yet happened.
 
 ### When coaching or generating a draft
 
