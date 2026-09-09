@@ -29,6 +29,17 @@ If the form provides one text box, use three labelled paragraphs or clear openin
 
 Run this gate before calling Section 1 complete. If one prompt is missing, ask for the missing student decision or mark it `[TO CONFIRM]`; do not infer a personal skill goal or a final research question from polished wording alone.
 
+## Length and completeness
+
+Use the current Edexcel/centre form and any stated local limit as the controlling requirement. There is no universal official word-count threshold in this reference. Judge content completeness before counting words:
+
+- Around 180–200 English words can be sufficient when the three prompts, central question, scope, evidence/method route, intended outcome, and learning skills are all clear.
+- For a more complex P301 literature-based project with several theories or case examples, around 230–270 words may give enough room to show the research path without becoming an introduction.
+- Do not expand to 400–500 words merely to appear thorough. Definitions, detailed literature summaries, case histories, or a full argument belong in the later research and dissertation, not in Section 1.
+- Do not invent extra theories, sources, cases, dates, or skill goals to reach a suggested length. If useful content is complete, stop; if a required decision is missing, ask for it.
+
+Treat these ranges as drafting heuristics only. A shorter coherent answer is stronger than a longer answer with repetition, and a longer answer is not automatically higher quality.
+
 ## Proposal-stage voice and technical level
 
 Calibrate language to the student's supplied writing and understanding:
@@ -87,6 +98,7 @@ Before presenting Section 1 as final, check:
 5. Technical terms are necessary, limited enough for the scope, and explainable by the student.
 6. The wording sounds like this student at the beginning of the project, while remaining precise enough for Level 3 work.
 7. The objectives can later generate truthful Activity Log entries about source choices, changes, problems, findings, and skill development.
+8. The length supports completeness without repeating the question or turning Section 1 into an introduction.
 
 If the original text is over-academic, return both the revised student-facing version and a short explanation of what was simplified and what technical content was deliberately retained. Do not describe the student as weak or make unsupported claims about authorship or AI use.
 
