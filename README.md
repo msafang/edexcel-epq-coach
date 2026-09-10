@@ -70,6 +70,10 @@ Evaluation / Reflection
 
 Section 2 会与 Section 1 分工处理：Section 1 回答要研究什么、要发现什么、要学会什么；Section 2 说明学生为什么选择这个项目、它与学科或未来方向如何相关，以及为什么选择这个具体问题。skill 还会检查个人动机的真实性、学科理论准确性、未来方向的确定程度和与 Section 1 的重复。
 
+### Proposal Section 3：活动与时间计划
+
+Section 3 使用“高层阶段 + 贯穿性任务”的计划方式。它会检查任务重叠、依赖、里程碑、buffer、关键词和研究框架的演化、持续维护 Activity Log、关键节点 tutor feedback，以及计划与真实校历是否匹配。不会把所有任务强行相加成固定总周数，也不会机械倒推最终论文目录。
+
 ### Proposal、Activity Log 与 Evaluation
 
 skill 会根据真实学生信息引导或生成：
@@ -122,6 +126,7 @@ git clone https://github.com/msafang/edexcel-epq-coach.git
 - `references/topic-selection.md`：定题、候选验证、可行性和 Proposal 衔接
 - `references/proposal-section1.md`：Proposal Section 1 / Project Objectives 的学生语言与计划阶段规则
 - `references/proposal-section2.md`：Proposal Section 2 的个人动机、学科联系和理论准确性规则
+- `references/proposal-section3.md`：Proposal Section 3 的活动计划、时间重叠和过程证据规则
 - `references/proposal-coaching.md`：Proposal 分阶段教学与一致性检查
 - `references/form-workflow.md`：表格填写与直接生成流程
 - `references/edexcel-rubric.md`：P301/P302 AO 评估要点

@@ -63,7 +63,7 @@ Describe what the student will decide and produce: topic refinement, source/data
 
 ### E. Activities and timescales
 
-Every major activity should have a task, purpose/output, duration or date range, dependency, risk, and adjustment route. The plan must cover research/design, making or data collection where relevant, analysis, drafting or production, revision, evaluation, and presentation. Include two or three checkable milestones as a planning aid, leave buffer time, and keep the final writing/rehearsal from being squeezed into the last day.
+Read [Proposal Section 3](proposal-section3.md). Every major activity should have a task, purpose/output, duration or date range, dependency, review point, risk, and adjustment route. Use a manageable set of high-level stages and separate ongoing Activity Log, reference management, tutor review, and approval/safety activities. Durations may overlap and should not be added as if every task were strictly serial. The plan must cover research/design, making or data collection where relevant, analysis, drafting or production, revision, evaluation, and presentation. Include two or three checkable milestones as a planning aid, leave buffer time, and keep the final writing/rehearsal from being squeezed into the last day.
 
 Unit routing:
 
@@ -100,6 +100,7 @@ After all blocks, check the following relationships and show contradictions befo
 | Risks ↔ alternatives | Each major risk has a practical response and scope consequence. |
 | Proposal ↔ later records | The Activity Log can record execution, problems, decisions, and changes against this plan. |
 | Section 1 ↔ Section 2 | Section 1 answers what the project will answer/find out/learn; Section 2 explains why this student chose it, without avoidable repetition. |
+| Section 3 ↔ later records | The activity plan creates realistic dated evidence for the Activity Log and leaves room for decisions, feedback, problems, and changes. |
 | Proposal ↔ paper/presentation | The question, project type, terminology, and conclusion/presentation plan remain aligned after revisions. |
 
 If there is a contradiction, name both fields and ask the student to choose which one to change. Do not silently harmonise the Proposal and erase the decision history.

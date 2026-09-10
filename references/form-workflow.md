@@ -46,7 +46,7 @@ Read [Proposal Section 2](proposal-section2.md). Connect a specific personal int
 
 ### Activities and timescales
 
-Use an ordered sequence with task, purpose/output, duration or date range, and milestone. P301 normally includes question refinement, source search/evaluation, reading and synthesis, outline, drafting, revision, references, evaluation, and presentation. P302 must additionally make method design, data collection, data cleaning/analysis, calculations or modelling, and contingency work visible. Timescales should leave room for failed searches, rewriting, checking, and rehearsal.
+Read [Proposal Section 3](proposal-section3.md). Use an ordered set of high-level activities with task, purpose/output, duration or date range, dependency or review point, and contingency. Do not add every duration as if the work were strictly serial: searching, reading, reference management, drafting, Activity Log updates, and tutor review may overlap. Include ongoing Activity Log and research-record maintenance, and use initial keywords that can develop as the research progresses. P301 normally includes question refinement, source search/evaluation, reading and synthesis, working structure, drafting, revision, references, evaluation, and presentation. P302 must additionally make method design, data collection, data cleaning/analysis, calculations or modelling, and contingency work visible. P303/P304 should use the relevant development, rehearsal, production, testing, feedback, safety, and presentation activities. Timescales should match the actual project window and leave room for failed searches, rewriting, checking, feedback, and rehearsal.
 
 ### Resources, research areas, and contingencies
 

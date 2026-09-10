@@ -1,5 +1,13 @@
 # Changelog
 
+## v5.5 (2026-09-10)
+
+- 增加 Proposal Section 3 / Activities and Timescales 专门指导。
+- 支持高层阶段与贯穿性任务并行的计划结构。
+- 增加时间重叠、依赖、buffer、review point 和真实校历检查。
+- 强化 Activity Log、reference management 和关键节点 tutor feedback 的持续记录。
+- 防止用最终论文目录倒推 Proposal，或把每项活动错误地视为严格串行。
+
 ## v5.4 (2026-09-10)
 
 - 增加 Proposal Section 2 / Reasons for choosing the project 专门指导。
