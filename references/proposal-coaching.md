@@ -78,6 +78,10 @@ Read [Proposal Section 4](proposal-section4.md). Name research, write-up, and pr
 
 For P301, do not force a first-hand data section. For P302, make data access, sample/instrument/procedure, consent/privacy, storage, and analysis visible. For P303/P304, make materials, equipment, collaborators, rehearsal/production space, permissions, and safety visible where applicable.
 
+### Research areas
+
+When the form asks what areas of research will be covered, read [Research areas](proposal-research-areas.md). Separate academic/professional fields from case evidence and source types. Allow provisional related areas when formal research has not started, but give each area a distinct role, keep the scope manageable, and do not pre-decide which theory explains initiation or continuation best.
+
 ### G. Expected outcome and success criteria
 
 State the actual deliverable and how it will answer the question or fulfil the brief. A P301 outcome is a dissertation or critical literature-based study; a P302 outcome is an investigation/field study with analyzable evidence; P303 and P304 require the relevant performance or artefact plus its supporting explanation. Success criteria should be observable, such as answering each objective, presenting a defensible interpretation, completing a reproducible analysis, or meeting defined production constraints. Avoid promises of a predetermined result.

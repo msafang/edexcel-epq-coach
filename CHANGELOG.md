@@ -1,5 +1,12 @@
 # Changelog
 
+## v5.7 (2026-09-11)
+
+- 增加 `What areas of research will you cover?` 专门指导。
+- 区分 academic areas、potential related fields、cases 和 source types。
+- 支持 Proposal 阶段使用 provisional research areas，并通过 Activity Log 记录范围发展。
+- 防止为了凑数量增加无关学科，或提前预设哪种理论解释力更强。
+
 ## v5.6 (2026-09-10)
 
 - 增加 Proposal Section 4 / Resources 专门指导。

@@ -78,6 +78,10 @@ Section 3 使用“高层阶段 + 贯穿性任务”的计划方式。它会检�
 
 Section 4 会分别检查 research、write-up 和 presentation 所需资源，并要求说明资源用途、访问方式、来源层级和局限。它不会为了显示来源多而自动加入 social media 或泛化 online articles，而是优先检查资源是否真正服务于研究问题和项目类型。
 
+### Research areas
+
+研究领域会与案例和来源分开处理。skill 支持学生在研究尚未正式开始时列出主要领域和可能相关领域，但会要求每个领域有不同作用、范围保持可控，并允许通过 Activity Log 记录后续新增、缩减或删除的研究方向。
+
 ### Proposal、Activity Log 与 Evaluation
 
 skill 会根据真实学生信息引导或生成：
@@ -132,6 +136,7 @@ git clone https://github.com/msafang/edexcel-epq-coach.git
 - `references/proposal-section2.md`：Proposal Section 2 的个人动机、学科联系和理论准确性规则
 - `references/proposal-section3.md`：Proposal Section 3 的活动计划、时间重叠和过程证据规则
 - `references/proposal-section4.md`：Proposal Section 4 的研究、写作、展示资源和来源评估规则
+- `references/proposal-research-areas.md`：研究领域、潜在相关领域和案例证据的层级区分规则
 - `references/proposal-coaching.md`：Proposal 分阶段教学与一致性检查
 - `references/form-workflow.md`：表格填写与直接生成流程
 - `references/edexcel-rubric.md`：P301/P302 AO 评估要点
