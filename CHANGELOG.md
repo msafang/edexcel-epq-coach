@@ -1,5 +1,13 @@
 # Changelog
 
+## v5.6 (2026-09-10)
+
+- 增加 Proposal Section 4 / Resources 专门指导。
+- 明确 research、write-up、presentation 三类资源功能。
+- 增加来源层级、访问方式、用途、局限和问题对齐检查。
+- 区分 academic、official、industry、company、news 和 search-tool 的证据角色。
+- 防止为了追求来源种类而加入不服务于研究问题的 social media 或泛化 online articles。
+
 ## v5.5 (2026-09-10)
 
 - 增加 Proposal Section 3 / Activities and Timescales 专门指导。

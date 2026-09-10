@@ -50,7 +50,7 @@ Read [Proposal Section 3](proposal-section3.md). Use an ordered set of high-leve
 
 ### Resources, research areas, and contingencies
 
-Name specific source classes and their intended use: peer-reviewed work, official statistics/reports, primary records, books, datasets, specialist databases, software, equipment, or people. State how credibility and relevance will be checked. For P302, specify data access, sample/instrument, permissions, storage, and what will happen if recruitment, equipment, or data quality fails. For P301, specify how conflicting definitions or outdated/biased sources will be handled.
+Read [Proposal Section 4](proposal-section4.md). Name specific research, write-up, and presentation resources and their intended use: peer-reviewed work, official statistics/reports, industry reports, company material, business news, books, datasets, search tools, word-processing/note/reference systems, presentation software, equipment, or people. State the access route and how credibility, relevance, currency, purpose, bias, and limitations will be checked. Do not equate source variety with quality or use social media merely to lengthen the list. For P302, specify data access, sample/instrument, permissions, storage, and what will happen if recruitment, equipment, or data quality fails. For P301, specify how conflicting definitions or outdated/biased sources will be handled and do not force primary data.
 
 ## Activity Log entry pattern
 

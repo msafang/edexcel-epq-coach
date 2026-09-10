@@ -74,7 +74,7 @@ Unit routing:
 
 ### F. Resources and research method
 
-Name resource classes and their purpose. For each important class, state how relevance, authority, currency, accuracy, bias, and purpose will be checked, and what question the resource helps answer. “Google”, “online material”, “books”, or “teacher help” alone is not a usable resource plan. Do not paste URLs without explaining their role.
+Read [Proposal Section 4](proposal-section4.md). Name research, write-up, and presentation resources and their purpose. For each important research resource, state how relevance, authority, currency, accuracy, bias, purpose, and limitations will be checked, what question it helps answer, and how it can be accessed. Distinguish peer-reviewed, textbook, official, industry, company, news, and search-tool roles. “Google”, “online material”, “books”, or “teacher help” alone is not a usable resource plan. Do not add social media or source types merely for variety, and do not paste URLs without explaining their role.
 
 For P301, do not force a first-hand data section. For P302, make data access, sample/instrument/procedure, consent/privacy, storage, and analysis visible. For P303/P304, make materials, equipment, collaborators, rehearsal/production space, permissions, and safety visible where applicable.
 
@@ -101,6 +101,8 @@ After all blocks, check the following relationships and show contradictions befo
 | Proposal ↔ later records | The Activity Log can record execution, problems, decisions, and changes against this plan. |
 | Section 1 ↔ Section 2 | Section 1 answers what the project will answer/find out/learn; Section 2 explains why this student chose it, without avoidable repetition. |
 | Section 3 ↔ later records | The activity plan creates realistic dated evidence for the Activity Log and leaves room for decisions, feedback, problems, and changes. |
+| Section 3 ↔ Section 4 | Planned activities have the resources, access routes, tools, and contingencies needed to carry them out. |
+| Section 4 ↔ outcome | The selected resources can support the stated outcome and level of certainty; write-up and presentation tools are included where the form asks for them. |
 | Proposal ↔ paper/presentation | The question, project type, terminology, and conclusion/presentation plan remain aligned after revisions. |
 
 If there is a contradiction, name both fields and ask the student to choose which one to change. Do not silently harmonise the Proposal and erase the decision history.
