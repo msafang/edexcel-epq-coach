@@ -1,5 +1,12 @@
 # Changelog
 
+## v5.4 (2026-09-10)
+
+- 增加 Proposal Section 2 / Reasons for choosing the project 专门指导。
+- 明确 Section 1 与 Section 2 的功能分工和重复检查。
+- 增加个人动机、学科/未来方向、跨学科联系和理论准确性检查。
+- 明确战略行为不等于非理性，并按学生证据校准未来方向的确定程度。
+
 ## v5.3 (2026-09-10)
 
 - 增加 Proposal Section 1 的篇幅与完整性判断规则。

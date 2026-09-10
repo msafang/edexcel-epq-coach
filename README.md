@@ -66,6 +66,10 @@ Evaluation / Reflection
 
 篇幅以内容完整性为先：约 180–200 个英文词在信息完整时可以足够；复杂的 P301 项目可用约 230–270 个词展开研究路径。这些只是内部写作参考，不是 Edexcel 官方字数门槛，不应为了凑字数扩写成 Introduction。
 
+### Proposal Section 2：为什么选择这个项目
+
+Section 2 会与 Section 1 分工处理：Section 1 回答要研究什么、要发现什么、要学会什么；Section 2 说明学生为什么选择这个项目、它与学科或未来方向如何相关，以及为什么选择这个具体问题。skill 还会检查个人动机的真实性、学科理论准确性、未来方向的确定程度和与 Section 1 的重复。
+
 ### Proposal、Activity Log 与 Evaluation
 
 skill 会根据真实学生信息引导或生成：
@@ -117,6 +121,7 @@ git clone https://github.com/msafang/edexcel-epq-coach.git
 - `SKILL.md`：主工作流与边界
 - `references/topic-selection.md`：定题、候选验证、可行性和 Proposal 衔接
 - `references/proposal-section1.md`：Proposal Section 1 / Project Objectives 的学生语言与计划阶段规则
+- `references/proposal-section2.md`：Proposal Section 2 的个人动机、学科联系和理论准确性规则
 - `references/proposal-coaching.md`：Proposal 分阶段教学与一致性检查
 - `references/form-workflow.md`：表格填写与直接生成流程
 - `references/edexcel-rubric.md`：P301/P302 AO 评估要点

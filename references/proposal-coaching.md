@@ -55,7 +55,7 @@ Reject objectives that merely repeat the topic, promise several unrelated indust
 
 ### C. Reasons for choosing the project
 
-Build a truthful connection between a specific interest or prior observation, an academic or real-world question, and a subject/future-study/skill goal. Ask when the interest began, what preliminary material triggered it, what remains uncertain, and why the student can sustain the project. Do not turn a general claim of social importance into an unsupported impact claim.
+Read [Proposal Section 2](proposal-section2.md). Build a truthful connection between a specific interest or prior observation, an academic or real-world question, and a subject/future-study goal. Explain why this particular question, case, performance, or artefact was chosen, rather than repeating Section 1's objectives or skills. Check theoretical accuracy: strategic behaviour is not automatically irrational, and short-term lower profits may be consistent with a longer-term objective. Calibrate `future study` wording to the student's confirmed plans and do not turn a possible interest into a definite future direction. Do not turn a general claim of social importance into an unsupported impact claim.
 
 ### D. Responsibilities and independence
 
@@ -99,6 +99,7 @@ After all blocks, check the following relationships and show contradictions befo
 | Method ↔ outcome | The method can actually produce the stated outcome and level of certainty. |
 | Risks ↔ alternatives | Each major risk has a practical response and scope consequence. |
 | Proposal ↔ later records | The Activity Log can record execution, problems, decisions, and changes against this plan. |
+| Section 1 ↔ Section 2 | Section 1 answers what the project will answer/find out/learn; Section 2 explains why this student chose it, without avoidable repetition. |
 | Proposal ↔ paper/presentation | The question, project type, terminology, and conclusion/presentation plan remain aligned after revisions. |
 
 If there is a contradiction, name both fields and ask the student to choose which one to change. Do not silently harmonise the Proposal and erase the decision history.
