@@ -33,6 +33,8 @@ Evaluation / Reflection
 论文与证据链质量评估
 ```
 
+P301 如果从宽泛的伦理、法律、政策、医学、社会或跨学科议题开始，skill 还会帮助学生先收窄研究问题、定义术语和范围，再用 Introduction、Literature Review、Discussion、Conclusion 四个大部分规划论文，并建立段落—证据—局限矩阵。该结构是高中生友好的规划起点，不是 Edexcel 强制章节或字数要求。
+
 ### 阶段 -1：定题与可行性
 
 保留原有的三种定题路径：
@@ -122,6 +124,7 @@ git clone https://github.com/msafang/edexcel-epq-coach.git
 ## 适合的请求
 
 - “帮学生从兴趣确定一个 Edexcel EPQ 题目。”
+- “把这个宽泛的 P301 议题收窄成研究问题，并规划文献综述和讨论的证据。”
 - “检查这个 Proposal 是否可执行。”
 - “根据真实活动记录填写 Activity Log。”
 - “帮我写 Evaluation，但不要编造经历。”
@@ -132,6 +135,7 @@ git clone https://github.com/msafang/edexcel-epq-coach.git
 
 - `SKILL.md`：主工作流与边界
 - `references/topic-selection.md`：定题、候选验证、可行性和 Proposal 衔接
+- `references/p301-topic-architecture.md`：P301 选题收窄、四部分论文骨架和段落—证据矩阵
 - `references/proposal-section1.md`：Proposal Section 1 / Project Objectives 的学生语言与计划阶段规则
 - `references/proposal-section2.md`：Proposal Section 2 的个人动机、学科联系和理论准确性规则
 - `references/proposal-section3.md`：Proposal Section 3 的活动计划、时间重叠和过程证据规则

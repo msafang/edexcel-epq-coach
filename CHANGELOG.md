@@ -1,5 +1,12 @@
 # Changelog
 
+## v5.8 (2026-09-11)
+
+- 增加 P301 从宽泛议题收窄到可回答研究问题的设计流程。
+- 增加 Introduction、Literature Review、Discussion、Conclusion 四部分的高中生友好型论文规划框架。
+- 增加段落—证据—局限矩阵和来源链接核验规则，强化定题到 Proposal、Activity Log 的衔接。
+- 明确 Literature Review 展示已有证据，Discussion 负责比较、评价并解释证据对研究问题的意义。
+
 ## v5.7 (2026-09-11)
 
 - 增加 `What areas of research will you cover?` 专门指导。
