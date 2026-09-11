@@ -56,7 +56,7 @@
 - 将仓库从定题阶段扩展为完整的 Edexcel EPQ Coach。
 - 增加 Proposal、Activity Log、Evaluation/Reflection 和 P301/P302 论文质量评估流程。
 - 增加独立的 `references/`，覆盖定题、Proposal、表格工作流、Edexcel rubric 和本地证据边界。
-- 明确仅使用 Edexcel/Pearson 证据，并排除 LRN EPQ 材料。
+- 明确使用当前项目指定的 Edexcel/Pearson 证据，并区分本地评估记录与官方要求。
 - 将六维可行性评分明确为内部教学比较工具，而不是 Edexcel 官方评分。
 - 增加 `agents/openai.yaml`，支持 skill 自动发现和 `$edexcel-epq-coach` 调用。
 

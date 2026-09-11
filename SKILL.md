@@ -1,6 +1,6 @@
 ---
 name: edexcel-epq-coach
-description: Guide Edexcel Level 3 EPQ topic selection, proposals, process records, and P301/P302 paper review while excluding LRN EPQ materials.
+description: Guide Edexcel Level 3 EPQ topic selection, proposals, process records, and P301/P302 paper review using current project evidence and assessment guidance.
 ---
 
 # Edexcel EPQ Coach
@@ -9,8 +9,7 @@ Use this skill when the user wants to choose a topic, plan, fill, generate, chec
 
 ## Non-negotiable scope
 
-- Use Edexcel/Pearson evidence only. The supplied local specification is Issue 3, September 2019; if the user supplies a newer board document, treat it as the controlling version and state the version used.
-- Exclude LRN EPQ material. Ignore any file or archive entry whose path contains a case-insensitive `LRN` path segment or whose filename clearly identifies an LRN EPQ record. In a mixed student archive, use only the `爱德思`/Edexcel path. Never fill gaps with LRN forms, scores, or examples.
+- Use the current project's specified Edexcel/Pearson specification, centre guidance, and student evidence. The supplied local specification is Issue 3, September 2019; if the user supplies a newer or different board/version, treat it as the controlling version and state the version used. Do not mix requirements, forms, scores, or examples from different assessment systems unless the user explicitly asks for a comparison.
 - Do not infer a grade from writing fluency, document appearance, AI-detection results, or a local grade distribution. The final mark belongs to the centre's assessor/moderation process. Give an evidence-linked provisional AO estimate or a mark range when the evidence is incomplete.
 - Do not invent a student's dates, activities, sources, findings, problems, tutor comments, signatures, data, or personal learning. Generated first-person content must be traceable to facts supplied by the student or to visible project evidence. Use `[待确认]`/`[TO CONFIRM]` and list missing facts instead of fabricating them.
 - Do not confuse topic, research question/hypothesis, objectives, method, and outcome. Do not require primary data from P301; do not let P302 claim an investigation without a describable data-collection method and usable data.

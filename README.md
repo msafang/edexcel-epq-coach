@@ -15,7 +15,7 @@
 
 Proposal 和 process-record 指导覆盖 P301-P304；详细的论文质量与 AO1-AO4 评估主要适用于 P301/P302。
 
-明确排除 LRN EPQ 文件、表格、分数和案例。混合学生档案中，只使用能够确认属于 Edexcel 的材料。
+本 skill 使用当前项目指定的 Edexcel/Pearson specification、centre guidance 和 student evidence。不会混用不同考试局、版本或 assessment system 的要求、表格、分数和案例，除非用户明确要求比较。
 
 ## 完整工作流
 
@@ -126,7 +126,7 @@ git clone https://github.com/msafang/edexcel-epq-coach.git
 - “根据真实活动记录填写 Activity Log。”
 - “帮我写 Evaluation，但不要编造经历。”
 - “根据论文、Proposal 和日志评估 P301/P302 质量。”
-- “排除 LRN 文件，只分析 Edexcel 产出。”
+- “只使用当前项目指定的 Edexcel 产出和评分标准。”
 
 ## 文件结构
 
