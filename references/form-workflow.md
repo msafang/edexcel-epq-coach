@@ -68,7 +68,7 @@ For review, sample the log for: dated chronology; link to the question; tangible
 
 Read [Evaluation/Reflection writing](evaluation-reflection-writing.md) for the detailed evidence and language checks below.
 
-Organise the evaluation around evidence, not a generic success narrative:
+Use the following as an evidence checklist, not a fixed writing structure. Organise the evaluation around evidence, not a generic success narrative, and adapt the order, grouping, opening, and paragraphing to the student's actual process:
 
 1. **Aim and outcome:** what the project set out to answer or make, what it achieved, and where the answer remains qualified.
 2. **Management:** compare the original plan with actual progress; identify one delay or successful decision and its effect.
@@ -78,7 +78,7 @@ Organise the evaluation around evidence, not a generic success narrative:
 6. **Improvement:** give an action, rationale, and expected benefit for the next iteration or study.
 7. **Transfer:** state one process lesson that can be used in later study, supported by what actually changed during this project.
 
-For P302, discuss data quality, sampling, controls/variables, measurement or model assumptions, calculations, and generalisability. For P301, discuss source coverage, synthesis, competing interpretations, and the limits of secondary research. Keep the reflection in the student's voice, avoid a formulaic opening or repeated “I evaluated...” sentences, and do not manufacture emotion or personal growth.
+For P302, discuss data quality, sampling, controls/variables, measurement or model assumptions, calculations, and generalisability. For P301, discuss source coverage, synthesis, competing interpretations, and the limits of secondary research. Keep the reflection in the student's voice, avoid a formulaic opening or repeated “I evaluated...” sentences, and do not manufacture emotion or personal growth. The seven items above are a coverage checklist, not a mandatory sequence; across a batch, vary the valid writing route without varying the evidence standard.
 
 ## Paper review output
 
