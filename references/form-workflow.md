@@ -54,13 +54,15 @@ Read [Proposal Section 4](proposal-section4.md). Name specific research, write-u
 
 ## Activity Log entry pattern
 
-For each real entry, write in first person and preserve the actual date:
+For each real entry, write in first person and preserve the actual date. Include the elements that genuinely apply:
 
-`On [date], I [completed action] and produced/changed [evidence]. This mattered because [link to question/objective]. I noticed [problem, uncertainty, or decision]. I responded by [specific action], which changed [plan/method/source choice] where applicable. My next step is [action and reason].`
+`On [date], I [completed action] and produced/changed [evidence]. This mattered because [link to question/objective]. I noticed [problem, uncertainty, or decision], so I [responded or chose]. This changed [plan/method/source choice] where applicable.`
 
-Good entries show development over time. They can record topic changes, search strategy changes, source rejection, feedback, method adjustments, failed attempts, data-quality issues, re-drafting, and formatting or presentation decisions when those decisions affect the outcome. A sequence of “I researched more and made progress” entries is not detailed management evidence.
+Add an explicit next action when it represents a meaningful transition, dependency, or decision. If no distinct next action follows from the entry, finish with the result, decision, reflection, or unresolved question instead. A dedicated form field for “next step” should still be completed when the form requires it, but a narrative log should not repeat `My next step was...` mechanically in every row.
 
-For review, sample the log for: dated chronology; link to the question; tangible evidence; problems and solutions; plan-versus-reality comparison; justified changes; and a credible next step. Do not reward length alone.
+Good entries show development over time. They can record topic changes, search-strategy changes, source rejection, feedback and the student's response, method adjustments, failed attempts, data-quality issues, re-drafting, scope reduction, and formatting or presentation decisions when those decisions affect the outcome. A sequence of “I researched more and made progress” entries is not detailed management evidence.
+
+For review, sample the log for: dated chronology; link to the question; tangible evidence; problems and solutions; plan-versus-reality comparison; justified changes; authentic student voice; and a next action where one is genuinely due. Do not reward length, a fixed number of rows, or repeated closing phrases alone. Read [Activity Log writing](activity-log-writing.md) for the detailed pattern and natural-language checks.
 
 ## Evaluation or self-reflection pattern
 

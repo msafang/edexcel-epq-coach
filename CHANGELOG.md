@@ -1,5 +1,12 @@
 # Changelog
 
+## v5.10 (2026-09-14)
+
+- 增加 Activity Log 的过程证据与自然语言写作指导。
+- 明确区分真实的 next action 与机械重复的 `My next step...` 结尾。
+- 强化计划、监控、决策、调整、Supporting Evidence 和学生声音检查。
+- 明确 Activity Log 与后续 Evaluation/Reflection 的功能边界，防止事后倒推和无证据的个人成长表述。
+
 ## v5.9 (2026-09-11)
 
 - 增加政策、法律、伦理、医学、权利和其他争议性议题的 P301 题目设计与风险检查。
