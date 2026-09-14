@@ -100,6 +100,8 @@ skill 会根据真实学生信息引导或生成：
 
 Activity Log 不要求每一条都机械地以 `My next step...` 结尾。skill 会根据真实过程，在下一行动、决定、反思、未解决问题或结果之间自然收束，同时检查日期、Supporting Evidence、问题—回应—计划变化，以及学生在项目中的计划、监控、决策和调整。
 
+Evaluation/Reflection 会同时评价成果、研究方法和项目管理，并要求把“限制”写成“限制—对解释或管理的影响—具体改进—预期收益”。它还会检查结论是否超出证据、案例是否被误写成普遍因果证明，以及研究能力和个人成长是否有真实的前后变化支持。
+
 ### 论文质量评估
 
 评估时优先检查完整证据链，而不是只看语言流畅度：
@@ -148,6 +150,7 @@ git clone https://github.com/msafang/edexcel-epq-coach.git
 - `references/proposal-section4.md`：Proposal Section 4 的研究、写作、展示资源和来源评估规则
 - `references/proposal-research-areas.md`：研究领域、潜在相关领域和案例证据的层级区分规则
 - `references/activity-log-writing.md`：Activity Log 的过程证据、自然收尾和学生声音规则
+- `references/evaluation-reflection-writing.md`：Evaluation/Reflection 的成果、方法、管理、限制和迁移学习规则
 - `references/proposal-coaching.md`：Proposal 分阶段教学与一致性检查
 - `references/form-workflow.md`：表格填写与直接生成流程
 - `references/edexcel-rubric.md`：P301/P302 AO 评估要点
