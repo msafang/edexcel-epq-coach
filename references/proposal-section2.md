@@ -13,23 +13,38 @@ Keep the two sections distinct:
 
 If Section 1 already states source evaluation, referencing, or critical writing skills, do not repeat the same list in Section 2 unless it is connected to a specific personal reason. If the student has not supplied a future-study direction, use `my interests in...` rather than claiming `my future interests in...`.
 
-## A three-paragraph structure
+## Possible composition routes, not a template
 
-Use this sequence when it fits the form:
+Use one of the following routes only when the student's evidence supports it. They are drafting aids, not an official Edexcel sequence, required number of paragraphs, or template to reproduce:
 
-1. **Personal starting point:** explain a concrete interest, observation, experience, question, or encounter with material. Show why the student noticed the issue; do not invent a childhood story or personal experience.
-2. **Subject and future connection:** connect the project to subjects, courses, skills, or a confirmed future direction. Explain the connection rather than merely naming two subjects.
-3. **Why this particular project:** explain why the chosen question, case, problem, performance, or artefact is a useful way for this student to explore the connection. Show what the project adds beyond a general interest.
+- begin with a concrete observation or encounter, then move to the question and the subject connection;
+- begin with an existing subject interest, then show the problem or tension that made this particular project worth choosing;
+- begin with a real narrowing decision, then explain why the selected question is manageable, meaningful, and connected to the student's interests;
+- combine these elements in fewer or more paragraphs when the form, evidence, and student's voice call for it.
 
-The paragraphs can be combined when the actual form is short. The structure is a teaching aid, not an official required format.
+Do not rotate these routes mechanically across a cohort. Choose the entry point and grouping that best represent the supplied evidence, and allow different students to use different orders or levels of detail without changing the evidence standard.
+
+## Motivation as a developing narrative
+
+When the student describes how the project came about, use this as an internal diagnostic rather than a visible formula:
+
+`concrete trigger or observation -> question or tension -> narrowing or comparison, if it really happened -> reason for choosing this question -> personal/academic connection -> proportionate significance or learning direction`
+
+Look for a credible development from a broad interest to this project. A trigger may be a lesson, reading, event, conversation, observation, or practical problem, but it is optional: do not require a dramatic story, a news event, or a personal experience that the student has not supplied. A narrowing stage is also optional; include it only when the student genuinely considered alternatives, found the first idea too broad, or changed direction.
+
+The chain may be compressed, reordered, or only partly visible when that is more truthful to the student's account. The important test is whether the text explains why this student noticed the issue and why this particular question, case, problem, performance, or artefact followed from that interest. Avoid turning the section into a checklist of subjects, ambitions, social importance, and skills.
+
+If a trigger, alternative, narrowing decision, future plan, or personal reason is missing, ask for it or use `[TO CONFIRM]`; never infer it from the final paper. If a genuine change of topic or scope occurred, it may later provide Activity Log evidence, but do not manufacture a development narrative for a project that did not have one.
 
 ## Personal motivation without repetition
 
-Move from a broad interest to the specific project:
+Move from a broad interest to the specific project when the evidence allows it:
 
 `personal interest or observation -> specific tension/question -> subject connection -> reason this project is manageable and worth doing`
 
 Avoid replacing motivation with generic claims such as “this is important to society” or “I have always been interested in business”. Ask what the student saw, read, studied, noticed, or wanted to understand, and why that led to this question. Keep the student's voice and level; improve clarity without manufacturing emotion or ambition.
+
+Openings such as `I have always been interested in...` are not automatically wrong, but they are insufficient unless followed by what shaped the interest and how it led to the chosen project. Do not enlarge the topic's social or economic impact beyond what the student can reasonably support.
 
 ## Theoretical and disciplinary accuracy
 
@@ -63,9 +78,11 @@ Before presenting Section 2 as final, check:
 5. Claims about rationality, psychology, business, short-term loss, and long-term aims are conceptually accurate and appropriately cautious.
 6. Advanced terms are limited to what the student has supplied or can explain.
 7. The wording reflects the student's certainty at the Proposal stage and does not read like a post-completion justification.
+8. If a developing-interest narrative is used, each stated trigger, alternative, narrowing decision, or future plan is supported by the student's account; absent details are not silently filled in.
+9. The composition is adapted to the evidence and voice rather than forced into the same opening, paragraph order, or closing used for other students.
 
 Use the existing quality scale (`Unanswered`, `Initial`, `Executable`, `Strong`) rather than assigning a fixed numeric score. A strong Section 2 is specific, truthful, personally connected, conceptually accurate, and non-repetitive; it is not necessarily longer or more sophisticated.
 
 ## Output modes
 
-For coaching, identify the personal trigger, subject/future connection, project-specific reason, repetition risk, theoretical accuracy issue, and the next student question. For direct generation, return the student-facing Section 2 text, followed by `Evidence to verify` and `Facts still needed`. If rewriting an over-academic draft, briefly state which technical content was retained, which claims were softened, and why Section 1 content was removed or relocated.
+For coaching, identify the available or missing trigger, developing question, narrowing decision if any, subject/future connection, project-specific reason, repetition risk, theoretical accuracy issue, and the next student question. Select a composition route that fits the evidence; do not expose a fixed route as a template. For direct generation, return the student-facing Section 2 text, followed by `Evidence to verify` and `Facts still needed`. If rewriting an over-academic draft, briefly state which technical content was retained, which claims were softened, and why Section 1 content was removed or relocated.

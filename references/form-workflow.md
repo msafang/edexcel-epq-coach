@@ -42,7 +42,7 @@ Write objectives that cover the intended answer and the intended learning. Read 
 
 ### Reasons for choosing the project
 
-Read [Proposal Section 2](proposal-section2.md). Connect a specific personal interest or observation to the chosen question, then explain its relationship to subjects or a confirmed future direction. Make clear why this particular question, case, performance, or artefact was chosen. Do not repeat Section 1's research objectives and skills without adding personal meaning. Check that disciplinary claims are accurate: strategic responses can still be rational, and short-term lower profits do not by themselves prove irrational behaviour. Use `my interests in...` unless a future-study plan is confirmed. Do not claim that the topic will solve a large social problem without evidence.
+Read [Proposal Section 2](proposal-section2.md). Connect a supplied personal interest, observation, or other genuine starting point to the chosen question, and explain its relationship to subjects or a confirmed future direction. When the student's account includes a real development or narrowing decision, make that progression visible; do not require it, invent it, or force every student into the same paragraph order. Make clear why this particular question, case, performance, or artefact was chosen. Do not repeat Section 1's research objectives and skills without adding personal meaning. Check that disciplinary claims are accurate: strategic responses can still be rational, and short-term lower profits do not by themselves prove irrational behaviour. Use `my interests in...` unless a future-study plan is confirmed. Do not claim that the topic will solve a large social problem without evidence.
 
 ### Activities and timescales
 
